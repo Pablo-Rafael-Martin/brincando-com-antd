@@ -1,0 +1,14 @@
+@use 'variables.scss' as *;
+
+.main-frame {
+    padding: 40rem;
+    width: calc(100vw + 2 * $column-padding);
+}
+
+.main-frame.flex {
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+    align-content: initial;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,13 @@
+@use 'variables.scss' as *;
+
+@for $i from 1 through $total-columns {
+    .col-#{$i} {
+        // flex: 0 0 (100% / $total-columns) * #{$i};
+        width: 100%;
+        max-width: calc((100% / $total-columns) * #{$i});
+    }
+}
+
+html {
+    font-size: 1px;
+}
