@@ -18,7 +18,10 @@ export default function Home() {
 
         <Layout>
             <Header>Header</Header>
-            <Content className='main-frame flex'>Content</Content>
+            <Content className='main-frame flex'>
+                <div className="col-6">lorem ipsum dolor</div>
+                <div className="col-6">lorem ipsum dolor</div>
+            </Content>
             <Footer>Footer</Footer>
         </Layout>
     );
